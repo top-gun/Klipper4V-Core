@@ -6,6 +6,13 @@
 # X Y Z Z1 Z2 E
 # In the RatRig-wiring diagram, the Z-steppers are calls Z1, Z2, Z3 - for Klipper the naming is Z, Z1, Z2
 # 
+# based on the following fan connections - from left to right:
+# parts hotend mainboard
+
+# thermistors: Attach from left to right:
+# bed extruder
+
+# DO NOT plug in cables to any endstop -switches for X, Y or Z!!!! 
 
 # The stepper_x section is used to describe the stepper controlling
 # the X axis in a cartesian robot.
